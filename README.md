@@ -1,1 +1,101 @@
-# Telegram-Bots
+## Telegram-Bots-With-Node
+telegram bots powered by Telegraf.js lib with node.js
+
+### ctx file
+```js
+TelegrafContext {
+  tg: Telegram {
+    token: '6693828932:AAG4J79XFeemO6DFGnLZ1B2bN3WsM057_NY',
+    options: {
+      apiRoot: 'https://api.telegram.org',
+      webhookReply: true,
+      agent: [Agent]
+    },
+    response: undefined
+  },
+  update: {
+    update_id: 38663516,
+    message: {
+      message_id: 5,
+      from: [Object],
+      chat: [Object],
+      date: 1695900255,
+      text: '/start',
+      entities: [Array]
+    }
+  },
+  options: { retryAfter: 1, handlerTimeout: 0, username: 'my13801101bot' },
+  updateType: 'message',
+  updateSubTypes: [ 'text' ],
+  contextState: {},
+  assert: [Function: bound assert],
+  answerInlineQuery: [Function: bound answerInlineQuery],
+  answerCallbackQuery: [Function: bound answerCallbackQuery],
+  answerCbQuery: [Function: bound answerCbQuery],
+  answerGameQuery: [Function: bound answerGameQuery],
+  answerShippingQuery: [Function: bound answerShippingQuery],
+  answerPreCheckoutQuery: [Function: bound answerPreCheckoutQuery],
+  editMessageText: [Function: bound editMessageText],
+  editMessageCaption: [Function: bound editMessageCaption],
+  editMessageMedia: [Function: bound editMessageMedia],
+  editMessageReplyMarkup: [Function: bound editMessageReplyMarkup],
+  editMessageLiveLocation: [Function: bound editMessageLiveLocation],
+  stopMessageLiveLocation: [Function: bound stopMessageLiveLocation],
+  reply: [Function: bound reply],
+  getChat: [Function: bound getChat],
+  exportChatInviteLink: [Function: bound exportChatInviteLink],
+  kickChatMember: [Function: bound kickChatMember],
+  restrictChatMember: [Function: bound restrictChatMember],
+  promoteChatMember: [Function: bound promoteChatMember],
+  setChatPhoto: [Function: bound setChatPhoto],
+  deleteChatPhoto: [Function: bound deleteChatPhoto],
+  setChatTitle: [Function: bound setChatTitle],
+  setChatDescription: [Function: bound setChatDescription],
+  pinChatMessage: [Function: bound pinChatMessage],
+  unpinChatMessage: [Function: bound unpinChatMessage],
+  leaveChat: [Function: bound leaveChat],
+  setChatPermissions: [Function: bound setChatPermissions],
+  getChatAdministrators: [Function: bound getChatAdministrators],
+  getChatMember: [Function: bound getChatMember],
+  getChatMembersCount: [Function: bound getChatMembersCount],
+  replyWithPhoto: [Function: bound replyWithPhoto],
+  replyWithMediaGroup: [Function: bound replyWithMediaGroup],
+  replyWithAudio: [Function: bound replyWithAudio],
+  replyWithDocument: [Function: bound replyWithDocument],
+  replyWithSticker: [Function: bound replyWithSticker],
+  replyWithVideo: [Function: bound replyWithVideo],
+  replyWithAnimation: [Function: bound replyWithAnimation],
+  replyWithVideoNote: [Function: bound replyWithVideoNote],
+  replyWithInvoice: [Function: bound replyWithInvoice],
+  replyWithGame: [Function: bound replyWithGame],
+  replyWithVoice: [Function: bound replyWithVoice],
+  replyWithPoll: [Function: bound replyWithPoll],
+  stopPoll: [Function: bound stopPoll],
+  replyWithChatAction: [Function: bound replyWithChatAction],
+  replyWithLocation: [Function: bound replyWithLocation],
+  replyWithVenue: [Function: bound replyWithVenue],
+  replyWithContact: [Function: bound replyWithContact],
+  getStickerSet: [Function: bound getStickerSet],
+  setChatStickerSet: [Function: bound setChatStickerSet],
+  deleteChatStickerSet: [Function: bound deleteChatStickerSet],
+  setStickerPositionInSet: [Function: bound setStickerPositionInSet],
+  deleteStickerFromSet: [Function: bound deleteStickerFromSet],
+  uploadStickerFile: [Function: bound uploadStickerFile],
+  createNewStickerSet: [Function: bound createNewStickerSet],
+  addStickerToSet: [Function: bound addStickerToSet],
+  replyWithMarkdown: [Function: bound replyWithMarkdown],
+  replyWithHTML: [Function: bound replyWithHTML],
+  deleteMessage: [Function: bound deleteMessage],
+  forwardMessage: [Function: bound forwardMessage],
+  botInfo: {
+    id: 6693828932,
+    is_bot: true,
+    first_name: 'MyFirstBot',
+    username: 'my13801101bot',
+    can_join_groups: true,
+    can_read_all_group_messages: false,
+    supports_inline_queries: false
+  },
+  startPayload: ''
+}
+```
